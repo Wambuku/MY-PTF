@@ -1,19 +1,18 @@
 <template>
-	<!-- <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" /> -->
-	<!-- <Home /> -->
-	<RouterView />
+  <NavBar />
+  <!-- <HomePage /> -->
+  <router-view />
+  <!-- <AboutPage /> -->
+  <!-- <ServicePage /> -->
+  <!-- <ContactPage /> -->
 </template>
 
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import Home from "./components/Home.vue";
-import { RouterView } from "vue-router";
+import NavBar from "./components/NavBar.vue";
+// import HomePage from "./components/HomePage.vue";
+// import AboutPage from "./Pages/About Page.vue";
+// import ServicePage from "./Pages/ServicePage.vue";
+// import ContactPage from "../src/Pages/ContactPage.vue";
 </script>
+
+<style scoped></style>
