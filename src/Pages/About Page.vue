@@ -9,7 +9,7 @@
           @click="rotateImage"
           src="../assets/portfolio.jpg"
           alt="Tech Image"
-          class="max-w-full h-auto cursor-pointer transition-transform transform duration-300 hover:rotate-90 rounded-full hover:opacity-75"
+          class="max-w-full h-auto cursor-pointer transition-transform transform duration-300 rounded-full hover:opacity-75"
         />
       </div>
       <div class="w-full md:w-1/2">

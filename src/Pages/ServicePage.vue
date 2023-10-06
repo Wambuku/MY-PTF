@@ -1,20 +1,20 @@
 <template>
-  <div class="bg-slate-950 py-8">
+  <div class="bg-slate-950 py-12">
     <div class="container mx-auto">
       <h1 class="text-3xl font-semibold mb-4">Services I Offer</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         <div
           v-for="service in services"
           :key="service.id"
-          class="bg-white p-4 rounded-lg shadow-md cursor-pointer transition-transform transform duration-300 hover:rotate-180"
+          class="bg-white p-6 rounded-lg shadow-md cursor-pointer transition-transform transform duration-300"
         >
           <img
             :src="service.image"
             :alt="service.name"
-            class="w-full h-40 object-cover rounded-t-lg hover:opacity-75"
+            class="w-full h-40 object-cover rounded-t-lg hover:animate-bounce"
           />
           <h2 class="text-xl font-semibold mt-2">{{ service.name }}</h2>
-          <p class="text-gray-600">{{ service.description }}</p>
+          <p class="text-xl text-gray-600">{{ service.description }}</p>
         </div>
       </div>
     </div>
@@ -67,8 +67,4 @@ const services = ref([
   },
 ]);
 </script>
-<style scoped>
-.rotate-180 {
-  transform: rotate(180deg);
-}
-</style>
+<style scoped></style>

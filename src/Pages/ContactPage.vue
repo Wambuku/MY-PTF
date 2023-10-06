@@ -20,7 +20,7 @@
       <!-- Rotating and fading text -->
       <div class="text-center mt-8">
         <div
-          class="text-8xl font-bold text-red-500 animate__animated animate__rotate-180 animate__fadeOut cursor-pointer transition-transform transform duration-300 hover:rotate-180"
+          class="text-8xl font-bold text-red-500 animate__animated animate__rotate-180 animate__fadeOut cursor-pointer transition-transform transform duration-300"
         >
           Thank you
         </div>

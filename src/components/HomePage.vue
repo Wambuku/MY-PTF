@@ -5,18 +5,18 @@
   >
     <div class="container mx-auto text-center">
       <h1
-        class="text-4xl font-bold text-gray-300 mb-4 animate__animated animate__fadeInUp"
+        class="text-8xl font-bold text-gray-300 mb-4 animate__animated animate__fadeInUp"
       >
         Welcome to My Portfolio
       </h1>
       <p
-        class="text-lg text-gray-300 font-bold mb-8 animate__animated animate__fadeIn"
+        class="text-2xl text-gray-300 font-bold mb-8 animate__animated animate__fadeIn"
       >
         I am a tech enthusiast and a Front-end developer.
       </p>
       <div class="text-center mt-8">
         <a
-          href="../assets/CURRICULUM VITAE Edited.pdf"
+          href="../assets/cv.pdf"
           class="bg-primary text-gray-300 font-bold px-6 py-2 rounded-full text-lg hover:bg-secondary text-amber-600 animate__animated animate__bounceIn animate__delay-3s"
           download="CURRICULUM VITAE Edited.pdf"
         >
