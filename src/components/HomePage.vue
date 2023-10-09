@@ -16,7 +16,7 @@
       </p>
       <div class="text-center mt-8">
         <a
-          href="../assets/cv.pdf"
+          href="../assets/my cv.pdf"
           class="bg-primary text-gray-300 font-bold px-6 py-2 rounded-full text-lg hover:bg-secondary text-amber-600 animate__animated animate__bounceIn animate__delay-3s"
           download="CURRICULUM VITAE Edited.pdf"
         >

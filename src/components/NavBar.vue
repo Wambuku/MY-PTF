@@ -4,9 +4,9 @@
       <div class="container mx-auto flex justify-between items-center">
         <div class="text-2xl font-bold">
           <img
-            src="../assets/logo.jpg"
+            src="../assets/jlogo.png"
             alt="My Logo"
-            class="w-8 h-8 mr-2 rounded-full"
+            class="w-16 h-16 mr-8 rounded-full"
           />
         </div>
         <ul class="flex space-x-6">

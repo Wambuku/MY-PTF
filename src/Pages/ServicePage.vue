@@ -6,7 +6,7 @@
         <div
           v-for="service in services"
           :key="service.id"
-          class="bg-white p-6 rounded-lg shadow-md cursor-pointer transition-transform transform duration-300"
+          class="bg-white p-10 rounded-lg shadow-md cursor-pointer transition-transform transform duration-300"
         >
           <img
             :src="service.image"
