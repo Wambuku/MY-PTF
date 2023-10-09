@@ -6,7 +6,7 @@
           <img
             src="../assets/jlogo.png"
             alt="My Logo"
-            class="w-16 h-16 mr-8 rounded-full"
+            class="w-8 h-8 mr-2 rounded-full"
           />
         </div>
         <ul class="flex space-x-6">
