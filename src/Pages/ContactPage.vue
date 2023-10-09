@@ -5,16 +5,25 @@
       <!-- Existing content -->
       <form>
         <div class="flex items-center space-x-4 mb-4">
-          <a :href="'Email:' + email" class="text-blue-500">
+          <a :href="'julietwambuku361@gmail.com' + email" class="text-blue-500">
             <i class="far fa-envelope"></i> Email
           </a>
-          <a :href="'Instagram:' + instagram" class="text-purple-500">
+          <a
+            :href="'https://www.instagram.com/in/_juli.e.e' + instagram"
+            class="text-purple-500"
+          >
             <i class="fab fa-instagram"></i> Instagram
           </a>
-          <a :href="'Linkedin:' + linkedin" class="text-blue-800">
+          <a
+            :href="
+              'https://www.linkedin.com/in/juliet-wambuku-033502222' + linkedin
+            "
+            class="text-blue-800"
+          >
             <i class="fab fa-linkedin"></i> LinkedIn
           </a>
         </div>
+
         <h1
           class="text-2xl bold text-blue-800 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce"
         >
